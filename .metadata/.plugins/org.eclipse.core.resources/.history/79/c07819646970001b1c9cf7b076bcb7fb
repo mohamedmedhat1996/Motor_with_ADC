@@ -1,0 +1,31 @@
+/******************************************************************************
+ *
+ * Module: KEYPAD
+ *
+ * File Name: My_Keypad.c
+ *
+ * Description: Source file for the Keypad driver
+ *
+ * Author: Mohamed Medhat
+ *
+ */
+#include "My_Keypad.h"
+#define N_col 4
+ /********************************************************************************/
+                        /*Prototypes*/
+
+/*******************************************************************************
+ *                      Functions Definitions                                  *
+ *******************************************************************************/
+uint8 Keypad_getPressedKey()
+{
+uint8 row,col;
+while(1)
+{
+for(col=0;col<N_col;col++)
+{
+
+}
+}
+}
+

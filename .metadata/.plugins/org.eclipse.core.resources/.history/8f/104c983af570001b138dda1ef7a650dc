@@ -1,0 +1,36 @@
+ /******************************************************************************
+ *
+ * Module: ADC
+ *
+ * File Name: Myadc.c
+ *
+ * Description: Source file for the ATmega16 ADC driver
+ *
+ * Author: Mohamed Medhat
+ *
+ *******************************************************************************/
+
+#include"My_adc.h"
+/*******************************************************************************
+ *                      Functions Definitions                                  *
+ *******************************************************************************/
+void ADC_init(void)
+{
+	ADMUX=0;
+	ADLAR=0;
+	ADCSRA = (1<<ADEN) | (1<<ADPS1) | (1<<ADPS0);
+
+}
+
+uint16 ADC_readChannel(uint8 channel_num)
+{
+	channel_num &= 0x07; /* channel number must be from 0 --> 7 */
+	ADMUX&=0xE0;
+	ADMUX = ADMUX | channel_num;
+	SET_BIT(ADCSRA,ADSC);
+	while(BIT_IS_CLEAR(ADCSRA,ADIF));
+	SET_BIT(ADCSRA,ADIF); /* clear ADIF by write '1' to it :) */
+	return ADC; /* return the data register */
+
+}
+

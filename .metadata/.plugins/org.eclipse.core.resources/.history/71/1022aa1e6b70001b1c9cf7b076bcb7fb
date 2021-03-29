@@ -1,0 +1,43 @@
+/******************************************************************************
+ *
+ * Module: KEYPAD
+ *
+ * File Name: My_Keypad.c
+ *
+ * Description: Source file for the Keypad driver
+ *
+ * Author: Mohamed Medhat
+ *
+ */
+#include "My_Keypad.h"
+ /********************************************************************************/
+                        /*Prototypes*/
+
+/*******************************************************************************
+ *                      Functions Definitions                                  *
+ *******************************************************************************/
+uint8 Keypad_getPressedKey()
+{
+uint8 row,col;
+while(1)
+{
+for(col=0;col<N_col;col++)
+{
+
+	KEYPAD_PORT_DIR = (0b00010000<<col);
+	KEYPAD_PORT_OUT = (~(0b00010000<<col));
+	for(row=0;row<N_row;row++)
+	{
+		if(BIT_IS_CLEAR(KEYPAD_PORT_IN,row)) /* if the switch is press in this row */
+		{
+           #if (N_col == 3)
+			  return KeyPad_4x3_adjustKeyNumber((row*N_col)+col+1);
+           #elif (N_col == 4)
+			  return KeyPad_4x4_adjustKeyNumber((row*N_col)+col+1);
+           #endif
+		}
+	}
+}
+}
+}
+

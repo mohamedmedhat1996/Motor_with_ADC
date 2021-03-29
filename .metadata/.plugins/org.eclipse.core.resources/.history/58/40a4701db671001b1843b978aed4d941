@@ -1,0 +1,10 @@
+#include"Timer.h"
+
+void PWM_init(unsigned char set_duty_cycle)
+{
+TCCR0|=(1<<WGM01)|(1<<WGM00)|(1<<COM01)|(1<<CS01);
+TCNT0=0;
+
+
+}
+

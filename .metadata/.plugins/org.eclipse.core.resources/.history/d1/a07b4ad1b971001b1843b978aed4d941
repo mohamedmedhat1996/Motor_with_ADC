@@ -1,0 +1,38 @@
+
+#include "My_Keypad.h"
+#include"My_Lcd.h"
+#include"My_adc.h"
+#include"Timer.h"
+
+extern unsigned char g_Interrupt_Flag = 0;
+
+
+int main()
+{
+	uint16 reader=0;
+	INT1_Init();
+	LCD_init();
+	ADC_init();
+	LCD_clearScreen();
+	LCD_displayStringRowColumn(0,2,"ADC value=");
+	DDRB|=(1<<PB0)|(1<<PB1);
+	PWM_init(Full_duty_cycle);
+
+	while(1)
+	{
+		reader=ADC_readChannel(0);
+		LCD_goToRowColumn(0,12);
+		LCD_intgerToString(reader);
+		if(g_Interrupt_Flag)
+		{
+			// Rotate the motor --> clock wise
+						PORTC &= (~(1<<PB0));
+						PORTC |= (1<<PB1);
+
+		}
+
+	}
+	return 0;
+}
+
+

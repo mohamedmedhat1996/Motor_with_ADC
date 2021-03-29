@@ -1,0 +1,42 @@
+
+#include "My_Keypad.h"
+#include"My_Lcd.h"
+#include"My_adc.h"
+
+//uint8 key=0;
+uint16 g_adcResult=0;
+uint32 reader=0;
+int main()
+{
+
+/*
+	LCD_init();
+	LCD_displayStringRowColumn(0,2,"My LCD Driver");
+	LCD_displayStringRowColumn(1,3,"Embedded WS");
+	_delay_ms(4000);
+
+	LCD_clearScreen();
+	LCD_displayString("Interf. Course ");
+	LCD_displayStringRowColumn(1,5,"Group ");
+	LCD_intgerToString(43);
+	*/
+	LCD_init();
+	ADC_init();
+	//key=Keypad_getPressedKey();
+	//LCD_intgerToString(key);
+	LCD_displayStringRowColumn(0,2,"ADC value=");
+
+
+	while(1)
+	{
+		g_adcResult=ADC_readChannel(0);
+		LCD_goToRowColumn(0,12);
+		reader = ((uint32)g_adcResult*150*5)/(1023*1.5);
+		LCD_intgerToString(reader);
+
+
+	}
+	return 0;
+}
+
+

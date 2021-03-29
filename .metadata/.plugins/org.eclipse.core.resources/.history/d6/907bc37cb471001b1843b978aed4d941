@@ -1,0 +1,16 @@
+/*
+ * Timer.h
+ *
+ *  Created on: ١٨‏/٠٢‏/٢٠٢١
+ *      Author: mm
+ */
+
+#ifndef TIMER_H_
+#define TIMER_H_
+
+#include "std_types.h"
+#include "micro_config.h"
+#include "common_macros.h"
+
+
+#endif /* TIMER_H_ */

@@ -1,0 +1,4350 @@
+??:??:?? **** Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:23: warning: control reaches end of non-void function
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     140 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     140 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:22: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:22: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:22: error: for each function it appears in.)
+../My_Keypad.c:21: warning: unused variable 'row'
+../My_Keypad.c:27: warning: control reaches end of non-void function
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:22: warning: unused variable 'row'
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:25: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:25: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:25: error: for each function it appears in.)
+../My_Keypad.c:22: warning: unused variable 'row'
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:25: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:25: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:25: error: for each function it appears in.)
+../My_Keypad.c:22: warning: unused variable 'row'
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:25: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:25: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:25: error: for each function it appears in.)
+../My_Keypad.c:22: warning: unused variable 'row'
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:22: warning: unused variable 'row'
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../Keypad.h:17,
+                 from ../My_Keypad.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:22: warning: unused variable 'row'
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:25: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:25: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:25: error: for each function it appears in.)
+../My_Keypad.c:22: warning: unused variable 'row'
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:25: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:25: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:25: error: for each function it appears in.)
+../My_Keypad.c:22: warning: unused variable 'row'
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:25: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:25: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:25: error: for each function it appears in.)
+../My_Keypad.c:22: warning: unused variable 'row'
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:25: error: 'N_col' undeclared (first use in this function)
+../My_Keypad.c:25: error: (Each undeclared identifier is reported only once
+../My_Keypad.c:25: error: for each function it appears in.)
+../My_Keypad.c:22: warning: unused variable 'row'
+make: *** [My_Keypad.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:22: warning: unused variable 'row'
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Keypad.c: In function 'Keypad_getPressedKey':
+../My_Keypad.c:36: warning: implicit declaration of function 'KeyPad_4x4_adjustKeyNumber'
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+./My_Keypad.o: In function `Keypad_getPressedKey':
+../My_Keypad.c:36: undefined reference to `KeyPad_4x4_adjustKeyNumber'
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_Keypad.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     630 bytes (3.8% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     630 bytes (3.8% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     634 bytes (3.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     634 bytes (3.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_Keypad.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     406 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     406 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     406 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     406 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     472 bytes (2.9% Full)
+(.text + .data + .bootloader)
+
+Data:          1 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     472 bytes (2.9% Full)
+(.text + .data + .bootloader)
+
+Data:          1 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Lcd.d" -MT"My_Lcd.o" -c -o "My_Lcd.o" "../My_Lcd.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Lcd.h:7,
+                 from ../My_Lcd.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Lcd.c: In function 'LCD_intgerToString':
+../My_Lcd.c:83: warning: implicit declaration of function 'itoa'
+Finished building: ../My_Lcd.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:9: warning: implicit declaration of function 'LCD_init'
+../main.c:10: warning: implicit declaration of function 'LCD_displayStringRowColumn'
+../main.c:14: warning: implicit declaration of function 'LCD_clearScreen'
+../main.c:15: warning: implicit declaration of function 'LCD_displayString'
+../main.c:17: warning: implicit declaration of function 'LCD_intgerToString'
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6244 bytes (38.1% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6244 bytes (38.1% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6232 bytes (38.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6232 bytes (38.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_Keypad.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6128 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6368 bytes (38.9% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6368 bytes (38.9% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6128 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6128 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_Keypad.c
+ 
+Building file: ../My_Lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Lcd.d" -MT"My_Lcd.o" -c -o "My_Lcd.o" "../My_Lcd.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Lcd.h:7,
+                 from ../My_Lcd.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Lcd.c: In function 'LCD_intgerToString':
+../My_Lcd.c:83: warning: implicit declaration of function 'itoa'
+Finished building: ../My_Lcd.c
+ 
+Building file: ../My_adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_adc.d" -MT"My_adc.o" -c -o "My_adc.o" "../My_adc.c"
+In file included from ../micro_config.h:22,
+                 from ../My_adc.h:16,
+                 from ../My_adc.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_adc.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6132 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6132 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6132 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6132 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6134 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6134 bytes (37.4% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:32: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+./main.o: In function `main':
+../main.c:23: undefined reference to `ADC_init'
+../main.c:31: undefined reference to `ADC_readChannel'
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_adc.d" -MT"My_adc.o" -c -o "My_adc.o" "../My_adc.c"
+In file included from ../micro_config.h:22,
+                 from ../My_adc.h:16,
+                 from ../My_adc.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_adc.c: In function 'ADC_init':
+../My_adc.c:20: error: lvalue required as left operand of assignment
+make: *** [My_adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_adc.d" -MT"My_adc.o" -c -o "My_adc.o" "../My_adc.c"
+In file included from ../micro_config.h:22,
+                 from ../My_adc.h:16,
+                 from ../My_adc.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_adc.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6322 bytes (38.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6322 bytes (38.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:32: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6306 bytes (38.5% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6306 bytes (38.5% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:32: error: too many arguments to function 'LCD_intgerToString'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6298 bytes (38.4% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6298 bytes (38.4% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6306 bytes (38.5% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6306 bytes (38.5% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6306 bytes (38.5% Full)
+(.text + .data + .bootloader)
+
+Data:         21 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6310 bytes (38.5% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6310 bytes (38.5% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_Keypad.c
+ 
+Building file: ../My_Lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Lcd.d" -MT"My_Lcd.o" -c -o "My_Lcd.o" "../My_Lcd.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Lcd.h:7,
+                 from ../My_Lcd.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Lcd.c: In function 'LCD_intgerToString':
+../My_Lcd.c:83: warning: implicit declaration of function 'itoa'
+Finished building: ../My_Lcd.c
+ 
+Building file: ../My_adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_adc.d" -MT"My_adc.o" -c -o "My_adc.o" "../My_adc.c"
+In file included from ../micro_config.h:22,
+                 from ../My_adc.h:16,
+                 from ../My_adc.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_adc.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:33: error: 'g_adcResult' undeclared (first use in this function)
+../main.c:33: error: (Each undeclared identifier is reported only once
+../main.c:33: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:33: error: 'g_adcResult' undeclared (first use in this function)
+../main.c:33: error: (Each undeclared identifier is reported only once
+../main.c:33: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+./main.o: In function `main':
+../main.c:10: multiple definition of `g_adcResult'
+./My_adc.o:../My_adc.c:25: first defined here
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe: Warning: size of symbol `g_adcResult' changed from 2 in ./My_adc.o to 4 in ./main.o
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+./main.o: In function `main':
+../main.c:10: multiple definition of `g_adcResult'
+./My_adc.o:../My_adc.c:25: first defined here
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6404 bytes (39.1% Full)
+(.text + .data + .bootloader)
+
+Data:         26 bytes (2.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6404 bytes (39.1% Full)
+(.text + .data + .bootloader)
+
+Data:         26 bytes (2.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6382 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6382 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6384 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6384 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Lcd.d" -MT"My_Lcd.o" -c -o "My_Lcd.o" "../My_Lcd.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Lcd.h:7,
+                 from ../My_Lcd.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Lcd.c: In function 'LCD_intgerToString':
+../My_Lcd.c:83: warning: implicit declaration of function 'itoa'
+Finished building: ../My_Lcd.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6384 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6384 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../My_Lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Lcd.d" -MT"My_Lcd.o" -c -o "My_Lcd.o" "../My_Lcd.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Lcd.h:7,
+                 from ../My_Lcd.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Lcd.c: In function 'LCD_intgerToString':
+../My_Lcd.c:83: warning: implicit declaration of function 'itoa'
+Finished building: ../My_Lcd.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6384 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6384 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_Keypad.c
+ 
+Building file: ../My_Lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Lcd.d" -MT"My_Lcd.o" -c -o "My_Lcd.o" "../My_Lcd.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Lcd.h:7,
+                 from ../My_Lcd.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Lcd.c: In function 'LCD_intgerToString':
+../My_Lcd.c:83: warning: implicit declaration of function 'itoa'
+Finished building: ../My_Lcd.c
+ 
+Building file: ../My_adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_adc.d" -MT"My_adc.o" -c -o "My_adc.o" "../My_adc.c"
+In file included from ../micro_config.h:22,
+                 from ../My_adc.h:16,
+                 from ../My_adc.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_adc.c
+ 
+Building file: ../Timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Timer.d" -MT"Timer.o" -c -o "Timer.o" "../Timer.c"
+In file included from ../micro_config.h:22,
+                 from ../Timer.h:6,
+                 from ../Timer.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Timer.c: In function 'PWM_init':
+../Timer.c:15: error: called object '8' is not a function
+make: *** [Timer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../Timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Timer.d" -MT"Timer.o" -c -o "Timer.o" "../Timer.c"
+In file included from ../micro_config.h:22,
+                 from ../Timer.h:6,
+                 from ../Timer.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Timer.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:12: warning: implicit declaration of function 'INT1_Init'
+../main.c:18: warning: large integer implicitly truncated to unsigned type
+../main.c:25: error: 'g_Interrupt_Flag' undeclared (first use in this function)
+../main.c:25: error: (Each undeclared identifier is reported only once
+../main.c:25: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../GPIO.c:3: error: redefinition of 'g_Interrupt_Flag'
+../GPIO.h:15: error: previous definition of 'g_Interrupt_Flag' was here
+make: *** [GPIO.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../GPIO.c:3: error: redefinition of 'g_Interrupt_Flag'
+../GPIO.h:15: error: previous definition of 'g_Interrupt_Flag' was here
+make: *** [GPIO.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:7: warning: 'g_Interrupt_Flag' initialized and declared 'extern'
+../main.c: In function 'main':
+../main.c:13: warning: implicit declaration of function 'INT1_Init'
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+./main.o: In function `main':
+../main.c:11: multiple definition of `g_Interrupt_Flag'
+./GPIO.o:../GPIO.c:7: first defined here
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../GPIO.c:1:
+../GPIO.h:15: warning: 'g_Interrupt_Flag' initialized and declared 'extern'
+Finished building: ../GPIO.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+./main.o: In function `main':
+../main.c:11: multiple definition of `g_Interrupt_Flag'
+./GPIO.o:../GPIO.c:7: first defined here
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+./main.o: In function `main':
+../main.c:11: multiple definition of `g_Interrupt_Flag'
+./GPIO.o:../GPIO.c:7: first defined here
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+./main.o: In function `main':
+../main.c:11: multiple definition of `g_Interrupt_Flag'
+./GPIO.o:../GPIO.c:7: first defined here
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:13: warning: implicit declaration of function 'INT1_Init'
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+../main.c:26: error: 'g_Interrupt_Flag' undeclared (first use in this function)
+../main.c:26: error: (Each undeclared identifier is reported only once
+../main.c:26: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../main.c:6:
+../GPIO.h:15: warning: 'g_Interrupt_Flag' initialized and declared 'extern'
+../main.c: In function 'main':
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+./main.o: In function `main':
+../main.c:11: multiple definition of `g_Interrupt_Flag'
+./GPIO.o:../GPIO.c:7: first defined here
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+./main.o: In function `main':
+../main.c:11: multiple definition of `g_Interrupt_Flag'
+./GPIO.o:../GPIO.c:7: first defined here
+make: *** [MINI_2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../main.c:6:
+../GPIO.h:15: warning: 'g_Interrupt_Flag' initialized and declared 'extern'
+../main.c:7: error: redefinition of 'g_Interrupt_Flag'
+../GPIO.h:15: error: previous definition of 'g_Interrupt_Flag' was here
+../main.c: In function 'main':
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:7: warning: 'g_Interrupt_Flag' initialized and declared 'extern'
+../main.c:7: error: redefinition of 'g_Interrupt_Flag'
+../GPIO.h:15: error: previous definition of 'g_Interrupt_Flag' was here
+../main.c: In function 'main':
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:7: warning: 'g_Interrupt_Flag' initialized and declared 'extern'
+../main.c: In function 'main':
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6652 bytes (40.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6652 bytes (40.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6652 bytes (40.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6656 bytes (40.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6656 bytes (40.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:19: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6652 bytes (40.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6652 bytes (40.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:21: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6680 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6680 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:21: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../Timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Timer.d" -MT"Timer.o" -c -o "Timer.o" "../Timer.c"
+In file included from ../micro_config.h:22,
+                 from ../Timer.h:6,
+                 from ../Timer.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Timer.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:12: warning: unused variable 'reader'
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6684 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6684 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6710 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6672 bytes (40.7% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6672 bytes (40.7% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6662 bytes (40.7% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6674 bytes (40.7% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6674 bytes (40.7% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6678 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6678 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6678 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6678 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6674 bytes (40.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6674 bytes (40.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6680 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6680 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6680 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6684 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6684 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6684 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6684 bytes (40.8% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6714 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6714 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6954 bytes (42.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6954 bytes (42.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6940 bytes (42.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6940 bytes (42.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6700 bytes (40.9% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6700 bytes (40.9% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6696 bytes (40.9% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6746 bytes (41.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6746 bytes (41.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6746 bytes (41.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6746 bytes (41.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6988 bytes (42.7% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6988 bytes (42.7% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6976 bytes (42.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6976 bytes (42.6% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6696 bytes (40.9% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6696 bytes (40.9% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6700 bytes (40.9% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6700 bytes (40.9% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6940 bytes (42.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6940 bytes (42.4% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6740 bytes (41.1% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6740 bytes (41.1% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (2.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../Timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Timer.d" -MT"Timer.o" -c -o "Timer.o" "../Timer.c"
+In file included from ../micro_config.h:22,
+                 from ../Timer.h:6,
+                 from ../Timer.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Timer.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:39: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6814 bytes (41.6% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6814 bytes (41.6% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6724 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6724 bytes (41.0% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../GPIO.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO.d" -MT"GPIO.o" -c -o "GPIO.o" "../GPIO.c"
+In file included from ../micro_config.h:22,
+                 from ../GPIO.h:11,
+                 from ../GPIO.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../GPIO.c
+ 
+Building file: ../My_Keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Keypad.d" -MT"My_Keypad.o" -c -o "My_Keypad.o" "../My_Keypad.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../My_Keypad.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_Keypad.c
+ 
+Building file: ../My_Lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_Lcd.d" -MT"My_Lcd.o" -c -o "My_Lcd.o" "../My_Lcd.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Lcd.h:7,
+                 from ../My_Lcd.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../My_Lcd.c: In function 'LCD_intgerToString':
+../My_Lcd.c:83: warning: implicit declaration of function 'itoa'
+Finished building: ../My_Lcd.c
+ 
+Building file: ../My_adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"My_adc.d" -MT"My_adc.o" -c -o "My_adc.o" "../My_adc.c"
+In file included from ../micro_config.h:22,
+                 from ../My_adc.h:16,
+                 from ../My_adc.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../My_adc.c
+ 
+Building file: ../Timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Timer.d" -MT"Timer.o" -c -o "Timer.o" "../Timer.c"
+In file included from ../micro_config.h:22,
+                 from ../Timer.h:6,
+                 from ../Timer.c:1:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Timer.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:39: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6814 bytes (41.6% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6814 bytes (41.6% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6814 bytes (41.6% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:39: warning: large integer implicitly truncated to unsigned type
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6790 bytes (41.4% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6790 bytes (41.4% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6790 bytes (41.4% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../micro_config.h:22,
+                 from ../My_Keypad.h:7,
+                 from ../main.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: MINI_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MINI_2.map -mmcu=atmega16 -o "MINI_2.elf"  ./GPIO.o ./My_Keypad.o ./My_Lcd.o ./My_adc.o ./Timer.o ./main.o   
+Finished building target: MINI_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MINI_2.elf  >"MINI_2.lss"
+Finished building: MINI_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6792 bytes (41.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MINI_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MINI_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    6792 bytes (41.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
